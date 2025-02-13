@@ -22,7 +22,7 @@ for letra in chave:
     else:
         contagem[letra] = 1
     
-print("A frase tem ",qntletra," letra(s).")
+print("A frase possui ",qntletra," letra(s).")
 dados[chave] = chave
 mais_comum = max(contagem, key=contagem.get)
 
