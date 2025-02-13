@@ -2,6 +2,8 @@ dados = {}
 contagem = {}
 qntletra = 0
 
+# comentario para teste github
+
 chave = input("Digite a chave: ")
 
 pontuacao = [".",",",":",";","!","?"]
@@ -20,7 +22,7 @@ for letra in chave:
     else:
         contagem[letra] = 1
     
-print("A frase contém ",qntletra," letra(s).")
+print("A frase tem ",qntletra," letra(s).")
 dados[chave] = chave
 mais_comum = max(contagem, key=contagem.get)
 
