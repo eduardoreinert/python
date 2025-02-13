@@ -3,7 +3,7 @@ print(type(ra))
 print(ra["Liz"])
 print(ra["Sofia"])
 print(ra)
-ra["Hugo"] = 222222
+ra["Hugo"] = 222223
 print(ra)
 
 for x in ra:
